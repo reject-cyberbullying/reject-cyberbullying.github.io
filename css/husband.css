@@ -1,0 +1,267 @@
+.husband_reason_wrap {
+    position: relative;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.husband_weapon_wrap {
+    position: relative;
+    width: 100%;
+}
+
+.child_reason_wrap {
+    position: relative;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.baby_reason_wrap {
+    position: relative;
+    width: 900px;
+    margin: 0 auto;
+}
+
+
+
+.husband_reason_imgs {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.husband_reason_imgs img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 1s;
+}
+
+
+
+.child_reason_imgs {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.child_reason_imgs img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 1s;
+}
+
+
+
+
+.baby_reason_imgs {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.baby_reason_imgs img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 1s;
+}
+
+
+.age{
+    width: 700px;
+    margin:0 auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.age img{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 1s;
+}
+
+
+
+
+
+
+.husband_reason_imgs img:nth-child(1) {
+    z-index: 3;
+}
+.husband_reason_imgs img:nth-child(2) {
+    z-index: 2;
+}
+.husband_reason_imgs img:nth-child(3) {
+    z-index: 1;
+}
+
+
+.child_reason_imgs img:nth-child(1) {
+    z-index: 4;
+}
+.child_reason_imgs img:nth-child(2) {
+    z-index: 3;
+}
+.child_reason_imgs img:nth-child(3) {
+    z-index: 2;
+}
+.child_reason_imgs img:nth-child(4) {
+    z-index: 1;
+}
+
+
+
+.baby_reason_imgs img:nth-child(1) {
+    z-index: 4;
+}
+.baby_reason_imgs img:nth-child(2) {
+    z-index: 3;
+}
+.baby_reason_imgs img:nth-child(3) {
+    z-index: 2;
+}
+.baby_reason_imgs img:nth-child(4) {
+    z-index: 1;
+}
+
+
+.age img:nth-child(1) {
+    z-index: 3;
+}
+.age img:nth-child(2) {
+    z-index: 2;
+}
+.age img:nth-child(3) {
+    z-index: 1;
+}
+
+
+
+.husband_reason_desc {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 870px;
+}
+
+.husband_weapon_desc {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 870px;
+}
+
+.child_reason_desc {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 840px;
+}
+
+.baby_reason_desc {
+    position: relative;
+    z-index: 2;
+    margin-bottom: 870px;
+}
+
+
+
+
+.husband_reason_text {
+    width: 840px;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    color: #FFF;
+    background-color: rgba(50, 50, 50, 0.9);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 400px;
+    line-height: 2rem;
+}
+
+.husband_weapon_text {
+    width: 840px;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    color: #FFF;
+    background-color: rgba(50, 50, 50, 0.9);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 450px;
+    line-height: 2rem;
+}
+
+.child_reason_text {
+    width: 780px;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    color: #FFF;
+    background-color: rgba(50, 50, 50, 0.9);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 450px;
+    line-height: 2rem;
+}
+
+.baby_reason_text {
+    width: 780px;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    color: #FFF;
+    background-color: rgba(50, 50, 50, 0.9);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 400px;
+    line-height: 2rem;
+}
+
+
+.fadeout {
+    opacity: 0;
+}
+
+.husband_reason_desc .husband_reason_text:nth-child(1) {
+    margin-top: 700px;
+}
+
+.husband_weapon_desc .husband_weapon_text:nth-child(1) {
+    margin-top: 700px;
+}
+
+.child_reason_desc .child_reason_text:nth-child(1) {
+    margin-top: 780px;
+   
+}
+
+.baby_reason_desc .baby_reason_text:nth-child(1) {
+    margin-top: 600px;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .husband_reason_text{
+        margin-top: 200px;
+    }
+
+    .husband_weapon_text{
+        margin-top: 200px;
+    }
+
+    .child_reason_text{
+        margin-top: 200px;
+    }
+
+    .baby_reason_text{
+        margin-top: 200px;
+    }
+}
