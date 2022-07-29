@@ -200,7 +200,7 @@
 }
 
 .child_reason_text {
-    width: 780px;
+    width: 840px;
     padding: 20px 40px;
     box-sizing: border-box;
     color: #FFF;
@@ -212,14 +212,14 @@
 }
 
 .baby_reason_text {
-    width: 780px;
+    width: 840px;
     padding: 20px 40px;
     box-sizing: border-box;
     color: #FFF;
     background-color: rgba(50, 50, 50, 0.9);
     margin-left: auto;
     margin-right: auto;
-    margin-top: 400px;
+    margin-top: 450px;
     line-height: 2rem;
 }
 
@@ -229,20 +229,20 @@
 }
 
 .husband_reason_desc .husband_reason_text:nth-child(1) {
-    margin-top: 700px;
+    margin-top: 20px;
 }
 
 .husband_weapon_desc .husband_weapon_text:nth-child(1) {
-    margin-top: 700px;
+    margin-top: 30px;
 }
 
 .child_reason_desc .child_reason_text:nth-child(1) {
-    margin-top: 780px;
+    margin-top: 10px;
    
 }
 
 .baby_reason_desc .baby_reason_text:nth-child(1) {
-    margin-top: 600px;
+    margin-top: 10px;
 }
 
 
